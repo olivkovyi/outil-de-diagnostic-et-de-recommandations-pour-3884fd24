@@ -1,21 +1,21 @@
 {
-  "run_id": "run-1777425040962",
+  "run_id": "run-1778636442370",
   "job_index": 1,
   "params": {
     "owner_user_id": "user-1774822953462",
     "owner_username": "admin",
     "owner_display_name": "Administrator",
-    "count": 5,
+    "count": 1,
     "archetype": "tool",
-    "market": "France",
+    "market": "Growth republish",
     "language": "fr",
     "country": "FR",
-    "brief": "Un assistant virtuel pour améliorer la qualité et la constance des bières artisanales.",
-    "notes": "Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.\nLes utilisateurs décrivent les défauts observés (goût, aspect, fermentation) et les paramètres de brassage utilisés pour recevoir des diagnostics et des conseils personnalisés.",
-    "import_notes": "",
-    "growth_job_id": "",
-    "growth_slug": "",
-    "growth_kind": "",
+    "brief": "Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.",
+    "notes": "Growth module republish of an updated local artifact.",
+    "import_notes": "Growth module republish of an updated local artifact.",
+    "growth_job_id": "growth-1778636287649",
+    "growth_slug": "outil-de-diagnostic-et-de-recommandations-pour-3884fd24",
+    "growth_kind": "content",
     "dashboard_mode": "builder",
     "network_site_format": "forum",
     "network_primary_topic": "",
@@ -32,13 +32,13 @@
     "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
     "network_blueprint_id": "",
     "mode": "production",
-    "run_kind": "generated_batch",
+    "run_kind": "import_deploy",
     "publish_target": "render",
     "requested_publish_target": "render",
     "railway_project_id_override": "",
     "railway_environment_id_override": "",
-    "railway_service_id_override": "",
-    "railway_service_name_override": "",
+    "railway_service_id_override": "srv-d7olme68bjmc73e1iut0",
+    "railway_service_name_override": "outil-de-diagnostic-et-de-recommandations-pour-3884fd24",
     "github_repo_private": true,
     "stage_models": {
       "ideation": "google/gemini-2.5-flash-lite:nitro",
@@ -47,242 +47,33 @@
       "qa": "anthropic/claude-haiku-4.5",
       "escalation": "anthropic/claude-sonnet-4.6"
     },
-    "archetype_display": "mixed batch",
+    "archetype_display": "file deploy",
     "archetype_mix": [
-      "tool",
-      "calculator",
-      "generator"
+      "imported"
     ],
-    "forced_design_theme": "analog-meets-ai",
-    "forced_structure_preset": "evidence-journal",
+    "forced_slug": "outil-de-diagnostic-et-de-recommandations-pour-3884fd24",
     "site_idea_title": "Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale",
-    "site_idea_summary": "Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions."
+    "site_idea_summary": "Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.",
+    "import_source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778636287649/outil-de-diagnostic-et-de-recommandations-pour-3884fd24",
+    "import_root_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778636287649/outil-de-diagnostic-et-de-recommandations-pour-3884fd24",
+    "import_analysis_model": "preserved-analysis"
   },
-  "site_spec": {
-    "slug": "outil-de-diagnostic-et-de-recommandations-pour-3884fd24",
-    "theme": {
-      "name": "Analog Meets AI",
-      "slug": "analog-meets-ai",
-      "eyebrow": "Crafted Signal",
-      "family": "analog-meets-ai",
-      "moods": [
-        "human",
-        "tactile",
-        "inventive",
-        "warm"
-      ],
-      "archetypes": [
-        "generator",
-        "tool",
-        "calculator"
-      ],
-      "niches": [
-        "writing tools",
-        "brand tools",
-        "creative utility",
-        "research tools",
-        "document tools"
-      ],
-      "keywords": [
-        "collage",
-        "craft",
-        "hybrid",
-        "human",
-        "signal"
-      ],
-      "token_index": [
-        "analog",
-        "brand",
-        "calculator",
-        "collage",
-        "craft",
-        "crafted",
-        "creative",
-        "document",
-        "generator",
-        "human",
-        "hybrid",
-        "inventive",
-        "meets",
-        "research",
-        "signal",
-        "tactile",
-        "tool",
-        "tools",
-        "utility",
-        "warm",
-        "writing"
-      ],
-      "font_embed": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap",
-      "display_font": "\"Fraunces\", serif",
-      "body_font": "\"IBM Plex Sans\", sans-serif",
-      "layout": "editorial",
-      "card_style": "paper",
-      "button_style": "outline",
-      "decor_style": "paper",
-      "hero_template": "1fr",
-      "seo_template": "1fr",
-      "feature_columns": 2,
-      "faq_columns": 2,
-      "hero_min_height": "70vh",
-      "panel_radius": "28px",
-      "card_radius": "26px",
-      "chip_radius": "999px",
-      "button_radius": "18px",
-      "outline_width": "1px",
-      "backdrop_blur": "16px",
-      "palette": {
-        "bg": "linear-gradient(155deg, #f7efe2 0%, #e7d7c2 44%, #dbeafe 100%)",
-        "surface": "rgba(255,250,244,0.9)",
-        "surface_border": "rgba(39,22,15,0.12)",
-        "text": "#27160f",
-        "muted": "#6f5a4a",
-        "accent": "#2563eb",
-        "accent_alt": "#ea580c",
-        "hero_glow": "rgba(37, 99, 235, 0.14)",
-        "button_text": "#f8fafc",
-        "panel_alt": "rgba(255,255,255,0.62)",
-        "shadow": "0 24px 64px rgba(71, 52, 37, 0.12)",
-        "input_fill": "rgba(255,255,255,0.52)"
-      }
-    },
-    "structure": {
-      "name": "Evidence Journal",
-      "slug": "evidence-journal",
-      "hero_variant": "editorial",
-      "proof_variant": "rail",
-      "section_order": [
-        "proof",
-        "seo",
-        "features",
-        "faq"
-      ],
-      "feature_columns": 2,
-      "faq_columns": 2,
-      "family": "editorial-journal",
-      "moods": [
-        "trust",
-        "narrative",
-        "research"
-      ],
-      "archetypes": [
-        "calculator",
-        "generator",
-        "tool"
-      ],
-      "niches": [
-        "legal",
-        "health",
-        "consulting",
-        "compliance"
-      ],
-      "keywords": [
-        "evidence",
-        "journal",
-        "narrative",
-        "proof"
-      ],
-      "token_index": [
-        "calculator",
-        "compliance",
-        "consulting",
-        "editorial",
-        "evidence",
-        "faq",
-        "features",
-        "generator",
-        "health",
-        "journal",
-        "legal",
-        "narrative",
-        "proof",
-        "rail",
-        "research",
-        "seo",
-        "tool",
-        "trust"
-      ]
-    },
-    "render_direction": "signal-bento",
-    "render_direction_name": "Signal Bento",
-    "page_blueprint": "briefing-board",
-    "page_blueprint_name": "Briefing Board",
+  "import_analysis": {
     "title": "Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale",
-    "tagline": "Décrivez Votre Défi Brassicole",
     "description": "Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.",
-    "feature_prefix": "Bloc",
-    "action": "Utiliser l'outil",
-    "cta_primary": "Obtenir le Diagnostic",
-    "cta_secondary": "Consulter la FAQ",
-    "inputs": [
-      {
-        "id": "primary",
-        "label": "Texte ou besoin",
-        "type": "text",
-        "placeholder": "Votre besoin principal",
-        "weight": 1.0
-      },
-      {
-        "id": "context",
-        "label": "Contexte",
-        "type": "text",
-        "placeholder": "Situation ou objectif",
-        "weight": 1.0
-      },
-      {
-        "id": "scope",
-        "label": "Intensité",
-        "type": "number",
-        "placeholder": "3",
-        "weight": 0.3
-      }
+    "summary": "Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.",
+    "notes": "Growth module republish of an updated local artifact.",
+    "archetype": "tool",
+    "language": "fr",
+    "country": "FR",
+    "market": "Growth republish",
+    "characteristics": [
+      "imported static site",
+      "ready file deploy",
+      "tool"
     ],
-    "hero_metrics": [
-      {
-        "value": "Signal Bento",
-        "label": "Cadence"
-      },
-      {
-        "value": "3",
-        "label": "Entrées"
-      },
-      {
-        "value": "Résultat recommandé",
-        "label": "Sortie"
-      }
-    ],
-    "trust_labels": [
-      "Signal Bento",
-      "Obtenir le Diagnostic",
-      "Résultat recommandé",
-      "Utilitaire immédiat",
-      "Structure SEO claire"
-    ],
-    "result_label": "Résultat recommandé",
-    "result_unit": "",
-    "runtime_mode": "analysis_tool",
-    "page_variant": "console",
-    "faq_topic": "Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale",
-    "faq_entries": [
-      {
-        "question": "Pourquoi utiliser cet outil pour Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale ?",
-        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
-      },
-      {
-        "question": "Le résultat est-il immédiat ?",
-        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
-      },
-      {
-        "question": "Cette page est-elle adaptée au SEO ?",
-        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
-      }
-    ],
-    "seo_paragraphs": [
-      "Cette page capte une intention forte autour de Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale et la transforme en action utile pour un public situé sur France.",
-      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
-      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
-    ],
-    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale | Décrivez Votre Défi Brassicole</title>\n    <meta name=\"description\" content=\"Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.\">\n    <style>\n        :root {\n            --color-primary: #34495e;\n            --color-secondary: #e67e22;\n            --color-accent: #f39c12;\n            --color-background: #ecf0f1;\n            --color-text: #2c3e50;\n            --font-headline: 'Arial Condensed', 'Impact', sans-serif;\n            --font-body: 'Helvetica Neue', Helvetica, Arial, sans-serif;\n        }\n\n        body {\n            font-family: var(--font-body);\n            line-height: 1.6;\n            margin: 0;\n            padding: 0;\n            background-color: var(--color-background);\n            color: var(--color-text);\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n        header {\n            background-color: var(--color-primary);\n            color: white;\n            width: 100%;\n            padding: 2rem 0;\n            text-align: center;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n        }\n\n        h1 {\n            font-family: var(--font-headline);\n            font-size: 3rem;\n            text-transform: uppercase;\n            margin: 0;\n            letter-spacing: 2px;\n        }\n\n        .container {\n            width: 90%;\n            max-width: 1000px;\n            margin: 2rem auto;\n            display: grid;\n            grid-template-columns: 1fr;\n            gap: 2rem;\n        }\n\n        @media (min-width: 768px) {\n            .container {\n                grid-template-columns: 1fr 2fr;\n            }\n        }\n\n        .tool-section, .result-section, .info-section, .seo-section {\n            background-color: white;\n            padding: 2rem;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);\n        }\n\n        h2 {\n            font-family: var(--font-headline);\n            font-size: 2rem;\n            color: var(--color-secondary);\n            margin-top: 0;\n            text-transform: uppercase;\n            border-bottom: 2px solid var(--color-accent);\n            padding-bottom: 0.5rem;\n            margin-bottom: 1.5rem;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 0.5rem;\n            font-weight: bold;\n            color: var(--color-primary);\n        }\n\n        input[type=\"text\"],\n        textarea,\n        select {\n            width: calc(100% - 20px);\n            padding: 10px;\n            margin-bottom: 1.5rem;\n            border: 1px solid #ccc;\n            border-radius: 4px;\n            box-sizing: border-box;\n            font-family: var(--font-body);\n            font-size: 1rem;\n        }\n\n        textarea {\n            min-height: 120px;\n            resize: vertical;\n        }\n\n        button {\n            background-color: var(--color-secondary);\n            color: white;\n            padding: 12px 25px;\n            border: none;\n            border-radius: 4px;\n            cursor: pointer;\n            font-size: 1.1rem;\n            font-weight: bold;\n            text-transform: uppercase;\n            transition: background-color 0.3s ease;\n        }\n\n        button:hover {\n            background-color: var(--color-accent);\n        }\n\n        #tool-result {\n            min-height: 150px;\n            background-color: #f8f8f8;\n            border: 1px dashed #ddd;\n            padding: 1.5rem;\n            border-radius: 4px;\n            font-size: 1.1rem;\n            white-space: pre-wrap;\n        }\n\n        .info-section {\n            grid-column: 1 / -1;\n            background-color: var(--color-primary);\n            color: white;\n            padding: 2.5rem;\n        }\n\n        .info-section h2 {\n            color: white;\n            border-bottom-color: var(--color-accent);\n        }\n\n        .info-section p {\n            margin-bottom: 1rem;\n            opacity: 0.9;\n        }\n\n        .seo-section {\n            grid-column: 1 / -1;\n            font-size: 0.9rem;\n            color: #555;\n            background-color: #f0f4f7;\n            border-top: 1px solid #e0e0e0;\n        }\n\n        .seo-section h3 {\n            font-family: var(--font-headline);\n            font-size: 1.5rem;\n            color: var(--color-primary);\n            margin-bottom: 1rem;\n        }\n\n        .seo-section ul {\n            list-style: none;\n            padding: 0;\n            display: flex;\n            flex-wrap: wrap;\n            gap: 0.5rem 1.5rem;\n        }\n\n        .seo-section li {\n            display: inline-block;\n            margin-right: 15px;\n        }\n\n        .seo-section a {\n            color: var(--color-secondary);\n            text-decoration: none;\n        }\n\n        .seo-section a:hover {\n            text-decoration: underline;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://outil-de-diagnostic-et-de-recommandations-pour-3884fd24.onrender.com\">\n    <meta property=\"og:title\" content=\"Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale\">\n    <meta property=\"og:description\" content=\"Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.\">\n    <meta property=\"og:url\" content=\"https://outil-de-diagnostic-et-de-recommandations-pour-3884fd24.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Outil de Diagnostic et de Recommandations pour la Micro-Brasserie Artisanale\", \"description\": \"Aide les micro-brasseurs amateurs et professionnels à identifier les problèmes potentiels dans leurs recettes ou processus de brassage et propose des solutions.\", \"url\": \"https://outil-de-diagnostic-et-de-recommandations-pour-3884fd24.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"outil-de-diagnostic-et-de-recommandations-pour-3884fd24\" data-runtime-mode=\"analysis_tool\">\n    <header>\n        <h1>Micro-Brasseur : Votre Assistant Qualité</h1>\n        <p>Aide les micro-brasseurs à identifier et résoudre les problèmes de brassage.</p>\n    </header>\n\n    <div class=\"container\">\n        <div class=\"tool-section\">\n            <h2>Décrivez Votre Défi Brassicole</h2>\n            <form id=\"tool-form\">\n                <label for=\"defaut-observe\">Défaut observé (Goût, Odeur, Aspect, etc.) :</label>\n                <textarea id=\"defaut-observe\" name=\"defaut-observe\" placeholder=\"Ex: Ma bière a un goût de beurre rance, ou la mousse ne tient pas, ou elle est trouble.\" required></textarea>\n\n                <label for=\"type-biere\">Type de bière brassée :</label>\n                <input type=\"text\" id=\"type-biere\" name=\"type-biere\" placeholder=\"Ex: IPA, Stout, Pilsner, Bière Blanche...\" required>\n\n                <label for=\"parametres-brassage\">Paramètres de brassage clés (Densité initiale/finale, Températures de fermentation, Levure, Grains) :</label>\n                <textarea id=\"parametres-brassage\" name=\"parametres-brassage\" placeholder=\"Ex: DI 1.050, DF 1.012, Fermentation à 20°C avec Safale US-05, Malt Pale, Crystal, CaraPils.\" required></textarea>\n\n                <label for=\"experience-brasseur\">Votre niveau d'expérience :</label>\n                <select id=\"experience-brasseur\" name=\"experience-brasseur\" required>\n                    <option value=\"\">-- Sélectionnez --</option>\n                    <option value=\"debutant\">Débutant (moins d'un an)</option>\n                    <option value=\"intermediaire\">Intermédiaire (1-3 ans)</option>\n                    <option value=\"avance\">Avancé (plus de 3 ans)</option>\n                    <option value=\"professionnel\">Professionnel</option>\n                </select>\n                <br><br>\n\n                <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"diagnostic-submit\">Obtenir le Diagnostic</button>\n            </form>\n        </div>\n\n        <div class=\"result-section\">\n            <h2>Résultat du Diagnostic</h2>\n            <div id=\"tool-result\">\n                Votre diagnostic et vos recommandations personnalisées apparaîtront ici. Décrivez au mieux votre situation pour des conseils précis.\n            </div>\n        </div>\n\n        <div class=\"info-section\">\n            <h2>Pourquoi ce diagnostic ?</h2>\n            <p>Le brassage artisanal est un art et une science. Chaque détail compte. Notre outil utilise une logique basée sur des années d'expérience en micro-brasserie pour vous aider à décoder les signaux que vous envoie votre bière. Finis les doutes, place à la maîtrise de votre production.</p>\n            <p>Que vous soyez un amateur passionné cherchant à perfectionner sa recette ou un brasseur professionnel confronté à un lot capricieux, notre assistant est là pour éclairer votre chemin.</p>\n        </div>\n    </div>\n\n    <div class=\"seo-section\">\n        <h3>Recherches associées pour brasseurs</h3>\n        <ul>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-1\">problèmes fermentation bière</a></li>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-2\">goût étrange bière artisanale</a></li>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-3\">diagnostic défauts bière maison</a></li>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-4\">solution bière trouble</a></li>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-5\">améliorer qualité bière brassage</a></li>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-6\">conseils micro brasserie</a></li>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-7\">recette bière parfaite</a></li>\n            <li><a href=\"#\" data-affiliate-slot=\"seo-link-8\">matériel brassage expert</a></li>\n        </ul>\n    </div>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(e) {\n            e.preventDefault();\n\n            const defaut = document.getElementById('defaut-observe').value.toLowerCase();\n            const typeBiere = document.getElementById('type-biere').value.toLowerCase();\n            const parametres = document.getElementById('parametres-brassage').value.toLowerCase();\n            const experience = document.getElementById('experience-brasseur').value;\n            let result = \"<h4>Diagnostic et Recommandations Personnalisées :</h4>\\n\\n\";\n\n            // Logic for diagnosing common issues\n            if (defaut.includes('beurre rance') || defaut.includes('diacétyle')) {\n                result += \"<strong>Problème potentiel :</strong> Excès de Diacétyle.\\n\";\n                result += \"<strong>Causes possibles :</strong> Température de fermentation trop basse, temps de contact avec la levure insuffisant après la fermentation principale, ou souche de levure produisant beaucoup de diacétyle.\\n\";\n                result += \"<strong>Recommandations :</strong>\\n\";\n                result += \"1. Augmentez la température de fermentation de 1-2°C pendant les 2-3 derniers jours (diacetyl rest).\\n\";\n                result += \"2. Assurez un pitch de levure sain et en quantité suffisante.\\n\";\n                result += \"3. Laissez la bière plus longtemps en contact avec la levure après la fin de la fermentation pour qu'elle puisse réabsorber le diacétyle.\\n\";\n            } else if (defaut.includes('trouble') || defaut.includes('manque de clarté')) {\n                result += \"<strong>Problème potentiel :</strong> Trouble dans la bière (Haze).\\n\";\n                result += \"<strong>Causes possibles :</strong> Trouble de protéines (protein haze), trouble de levure, trouble de froid (chill haze), ou sédiments de houblon/malt.\\n\";\n                result += \"<strong>Recommandations :</strong>\\n\";\n                result += \"1. Assurez une bonne clarification lors du refroidissement post-ébullition (whirlpool, ajout d'irish moss).\\n\";\n                result += \"2. Réduisez les protéines du malt si le trouble persiste (en utilisant des malts moins protéinés).\\n\";\n                result += \"3. Refroidissez la bière lentement et stockez-la au froid pour faire précipiter les composés et effectuer un transfert délicat.\\n\";\n                result += \"4. Utilisez un agent de clarification secondaire (gélatine, bentonite) si nécessaire.\\n\";\n            } else if (defaut.includes('mousse ne tient pas') || defaut.includes('faible rétention de mousse')) {\n                result += \"<strong>Problème potentiel :</strong> Faible rétention de mousse.\\n\";\n                result += \"<strong>Causes possibles :</strong> Manque de protéines et dextrines dans la recette, nettoyage insuffisant de la verrerie, carbonatation insuffisante, graisses ou huiles dans la bière.\\n\";\n                result += \"<strong>Recommandations :</strong>\\n\";\n                result += \"1. Intégrez des malts riches en protéines comme le Carapils, le blé, ou l'avoine à votre recette.\\n\";\n                result += \"2. Assurez un nettoyage irréprochable de votre matériel de service et de vos verres.\\n\";\n                result += \"3. Vérifiez et ajustez votre niveau de carbonatation.\\n\";\n                result += \"4. Évitez toute contamination par des graisses (ustensiles sales, résidus de détergent).\\n\";\n            } else if (defaut.includes('acidité') || defaut.includes('aigre')) {\n                result += \"<strong>Problème potentiel :</strong> Goût acide ou aigre.\\n\";\n                result += \"<strong>Causes possibles :</strong> Infection bactérienne (Lactobacillus, Pediococcus) pendant la fermentation ou le conditionnement.\\n\";\n                result += \"<strong>Recommandations :</strong>\\n\";\n                result += \"1. Renforcez drastiquement vos protocoles d'assainissement et de désinfection de tout le matériel post-ébullition.\\n\";\n                result += \"2. Vérifiez l'intégrité de vos joints et fermenteurs pour éviter l'entrée d'air (et de bactéries).\\n\";\n                result += \"3. Envisagez un starter de levure plus conséquent pour une fermentation rapide et saine.\\n\";\n            } else if (defaut.includes('levure') || defaut.includes('pain') || defaut.includes('gomme')) {\n                result += \"<strong>Problème potentiel :</strong> Goût de levure excessive ou notes de pain/levure.\\n\";\n                result += \"<strong>Causes possibles :</strong> Auto-lyse de la levure (contact trop long avec le gâteau de levure mort), fermentation à température trop élevée, ou mauvaise floculation de la levure.\\n\";\n                result += \"<strong>Recommandations :</strong>\\n\";\n                result += \"1. Transférez la bière en secondaire ou embouteillez/embadgez après la fermentation primaire pour éviter l'auto-lyse si la durée de contact est longue.\\n\";\n                result += \"2. Contrôlez mieux la température de fermentation pour rester dans la plage optimale de la levure.\\n\";\n                result += \"3. Laissez plus de temps pour le crash cooling (refroidissement rapide) si la levure est peu floculante.\\n\";\n            } else if (defaut.includes('oxydation') || defaut.includes('carton') || defaut.includes('papier')) {\n                result += \"<strong>Problème potentiel :</strong> Goût de carton / papier (oxydation).\\n\";\n                result += \"<strong>Causes possibles :</strong> Exposition à l'oxygène après la fermentation, transferts trop agressifs, ou vieillissement excessif.\\n\";\n                result += \"<strong>Recommandations :</strong>\\n\";\n                result += \"1. Minimisez l'exposition à l'oxygène à toutes les étapes post-fermentation.\\n\";\n                result += \"2. Effectuez des transferts (fermenteur à fût/bouteille) le plus délicatement possible, sans éclaboussures.\\n\";\n                result += \"3. Purgez vos fûts ou bouteilles avec du CO2 avant remplissage si possible.\\n\";\n                result += \"4. Conservez vos bières à des températures plus basses pour ralentir le processus d'oxydation.\\n\";\n            } else {\n                result += \"Nous avons besoin de plus d'informations ou le problème est moins commun. Voici des pistes générales :\\n\\n\";\n                result += \"- <strong>Vérifiez votre assainissement :</strong> La propreté est la clé numéro un pour une bière saine.\\n\";\n                result += \"- <strong>Contrôlez vos températures :</strong> La température de fermentation impacte grandement les arômes produits par la levure.\\n\";\n                result += \"- <strong>Qualité de l'eau :</strong> L'eau est un ingrédient majeur, son profil minéral peut influencer le goût et le pH.\\n\";\n                result += \"- <strong>Fraîcheur des ingrédients :</strong> Malts éventés ou houblons oxydés peuvent donner de mauvais goûts.\\n\";\n                result += \"- <strong>Hydratation de la levure :</strong> Assurez une bonne réhydratation ou un starter pour un départ de fermentation vigoureux.\\n\";\n            }\n\n            // Add general advice based on experience\n            result += `\\n\\n<h4>Conseils pour ${experience} :</h4>\\n`;\n            if (experience === 'debutant') {\n                result += \"En tant que brasseur débutant, concentrez-vous sur la maîtrise des bases : propreté rigoureuse, contrôle des températures et suivi précis des recettes. Chaque brassin est une leçon !\\n\";\n            } else if (experience === 'intermediaire') {\n                result += \"Pour un brasseur intermédiaire, commencez à expérimenter avec la gestion de l'eau, les différents types de levures et les techniques de houblonnage pour affiner vos saveurs.\\n\";\n            } else if (experience === 'avance') {\n                result += \"Brasseur avancé, explorez des techniques plus complexes comme le vieillissement en fût, les sour beers, ou le contrôle précis du profil de l'eau pour optimiser chaque style.\\n\";\n            } else if (experience === 'professionnel') {\n                result += \"En tant que professionnel, une attention constante à la qualité des matières premières, à l'optimisation des process et à l'analyse sensorielle est essentielle. Les détails font la différence.\\n\";\n            }\n\n            result += \"\\nN'oubliez pas de noter chaque paramètre pour pouvoir ajuster vos prochains brassins. Bonne dégustation !\\n\";\n\n            document.getElementById('tool-result').innerText = result;\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.setAttribute(\"rel\", \"nofollow sponsored noopener noreferrer\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\", \"noopener\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
-    "generation_mode": "direct_html"
-  }
+    "suggested_slug": "outil-de-diagnostic-et-de-recommandations-pour-3884fd24"
+  },
+  "source_path": "/var/lib/utility-site-studio/data/growth-republish/growth-1778636287649/outil-de-diagnostic-et-de-recommandations-pour-3884fd24",
+  "deploy_root": "/var/lib/utility-site-studio/data/growth-republish/growth-1778636287649/outil-de-diagnostic-et-de-recommandations-pour-3884fd24"
 }
